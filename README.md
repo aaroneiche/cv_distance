@@ -1,7 +1,10 @@
 
 # CV Distance calculation and finding.
 
-This script were made while exploring OpenCV as part of a learning project. 
+This script was made while exploring OpenCV as part of a learning project for work. It will identify 
+blobs on the calibration grid, and using a known focal length of the camera, and determine their approximate distance based on the relationship to the nearest neighbor dot.
+
+<img src="demo.gif" width="640" height="378">
 
 ## Running 
 There are 3 ways to run this script:
@@ -29,6 +32,7 @@ On The Data image you can toggle the following:
 ## Environment
 In order to run this script, you need the following installed in your python environment:
 - Python 3 (This was made with Python 3.8.13)
+And these libraries (I installed with pip)
 - OpenCV4 with contribs `opencv-contrib-python`
 - imutils `opencv-python`
 - attrs `attrs`
