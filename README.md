@@ -19,15 +19,15 @@ Webcam
 
 ## Controls
 When running the script, there are several key commands you can issue to control the view:
-`1` : Color image (Raw Webcam feed)
-`2` : Greyscale image (cut out color to make thresholding easier) 
-`3` : Thresholded Image
-`4` : (Default) The Data image (where we overlay data on the color image.)
+- `1` : Color image (Raw Webcam feed)
+- `2` : Greyscale image (cut out color to make thresholding easier) 
+- `3` : Thresholded Image
+- `4` : (Default) The Data image (where we overlay data on the color image.)
 
 On The Data image you can toggle the following: 
-`b` : Blob Identities (IDs and location of detected 'blobs')
-`l` : Lines drawn to nearest neighbors
-`d` : Distance text calculated for blobs, based on nearest neighbor identity.
+- `b` : Blob Identities (IDs and location of detected 'blobs')
+- `l` : Lines drawn to nearest neighbors
+- `d` : Distance text calculated for blobs, based on nearest neighbor identity.
 
 ## Environment
 In order to run this script, you need the following installed in your python environment:
