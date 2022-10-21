@@ -19,10 +19,10 @@ class Mode(Enum):
     THRESH = 3
     DATA = 4
 
-currentMode = Mode.COLOR
+currentMode = Mode.DATA
 # The focal length for the Logitech c910, determined emperically
 # For more details, read here: https://pyimagesearch.com/2015/01/19/find-distance-camera-objectmarker-using-python-opencv/
-focalLength = 2159          
+focalLength = 2159 
 
 # Blob Detection parameters
 params = cv2.SimpleBlobDetector_Params()
